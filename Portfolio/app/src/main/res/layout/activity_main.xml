@@ -26,6 +26,7 @@
         android:background="@color/udacity_orange"
         android:text="@string/spotify_streamer"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="viewToast"
         />
     <Button
         android:id="@+id/btnScoresApp"
@@ -35,6 +36,7 @@
         android:background="@color/udacity_orange"
         android:text="@string/scores_app"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="viewToast"
         />
     <Button
         android:id="@+id/btnLibraryApp"
@@ -44,6 +46,7 @@
         android:background="@color/udacity_orange"
         android:text="@string/library_app"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="viewToast"
         />
     <Button
         android:id="@+id/btnBuildItBigger"
@@ -53,6 +56,7 @@
         android:background="@color/udacity_orange"
         android:text="@string/build_it_bigger"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="viewToast"
         />
     <Button
         android:id="@+id/btnXYZReader"
@@ -62,6 +66,7 @@
         android:background="@color/udacity_orange"
         android:text="@string/xyz_reader"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="viewToast"
         />
     <Button
         android:id="@+id/btnCapstone"
@@ -71,6 +76,7 @@
         android:background="@color/red"
         android:text="@string/capstone"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="viewToast"
         />
 
 
